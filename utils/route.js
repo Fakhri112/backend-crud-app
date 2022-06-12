@@ -2,7 +2,7 @@ const express = require("express");
 const route = express.Router();
 const { body } = require('express-validator');
 const { getAuthUser, authSuccess, regiserUser, loginUser, 
-    logOut, deleteAuthUser, getOneAuthUser} = require("../controller/auth_users");
+    logOut, deleteAuthUser} = require("../controller/auth_users");
 const { authEmailCheck, authNamaCheck, reTypePasswordCheck,
       contactNamaCheck, contactUpdateNamaCheck } = require("../middleware/validation")
 const { verify } = require("../middleware/verifyAccount");

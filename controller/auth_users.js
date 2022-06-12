@@ -10,7 +10,7 @@ const authSuccess = (req, res) =>{
 
 const getAuthUser = async(req, res)=>{
     try{
-        const LoadContact = await auth_user.find().sort({_id: -1}).limit(1)
+        const LoadContact = await auth_user.find()
         res.json(LoadContact);
     }
     catch(err){
