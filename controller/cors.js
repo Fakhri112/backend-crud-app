@@ -1,4 +1,4 @@
-var allowlist = ['http://localhost:3000', 'https://my-auth-crud.herokuapp.com/']
+var allowlist = ['https://my-auth-crud.herokuapp.com','http://localhost:3000']
 var corsOptionsDelegate = function (req, callback) {
   var corsOptions;
   if (allowlist.indexOf(req.header('Origin')) !== -1) {
