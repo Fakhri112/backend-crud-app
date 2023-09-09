@@ -17,8 +17,3 @@ ACCESS_TOKEN_SECRET = 'YOUR ACCESS TOKEN'
 REFRESH_TOKEN_SECRET = 'YOUR REFRESH TOKEN'
 MONGO_URI = 'YOUR MONGO URI'
 ```
-
-## Project Result
-[https://my-auth-crud.herokuapp.com/](https://my-auth-crud.herokuapp.com/)
-
-
